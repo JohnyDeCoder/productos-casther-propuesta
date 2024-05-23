@@ -144,6 +144,7 @@ footer {
 
 .nav-link:focus {
     color: #F48610;
+    transform: scale(1.1);
 }
 
 .nav-link.dropdown-toggle:focus {
@@ -190,7 +191,8 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-.card-link:hover {
+.card-link:hover,
+.card-link:focus {
     transform: scale(1.05);
 }
 
